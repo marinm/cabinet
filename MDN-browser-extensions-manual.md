@@ -1,6 +1,6 @@
 # MDN Browser Extensions Manual reading checklist
 
-[Browser Extensions](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions)
+- [x] [Browser Extensions](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions)
 
 ## Getting Started
 
@@ -155,3 +155,148 @@
 - [ ] [Publish](https://extensionworkshop.com/documentation/publish/)
 - [ ] [Manage](https://extensionworkshop.com/documentation/manage/)
 - [ ] [Enterprise](https://extensionworkshop.com/documentation/enterprise/)
+
+---
+
+# Extension Workshop
+
+[extensionworkshop.com](https://extensionworkshop.com/)
+
+## Develop
+
+- [ ] [Develop Overview](https://extensionworkshop.com/documentation/develop)
+
+### Geting Started
+
+- [ ] [Unique Firefox Capabilities](https://extensionworkshop.com/documentation/develop/unique-firefox-capabilities/)
+- [ ] [Firefox Workflow Overview](https://extensionworkshop.com/documentation/develop/firefox-workflow-overview/)
+- [ ] [About the WebExtensions API](https://extensionworkshop.com/documentation/develop/about-the-webextensions-api/)
+
+### Manifest V3
+
+- [ ] [Manifest V3 migration guide](https://extensionworkshop.com/documentation/develop/manifest-v3-migration-guide/)
+
+### Cross-Browser Development
+
+- [ ] [Browser Compatibility](https://extensionworkshop.com/documentation/develop/browser-compatibility/)
+- [ ] [Build cross-browser extensions](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/Build_a_cross_browser_extension)
+
+### Firefox Tools
+
+- [ ] [Build an extension in 5 minutes](https://www.youtube.com/watch?v=Q3AQ5D2QFwc)
+- [ ] [Broser Extension Development Tools](https://extensionworkshop.com/documentation/develop/browser-extension-development-tools/)
+- [ ] [Choosing a Firefox version for extension development](https://extensionworkshop.com/documentation/develop/choosing-a-firefox-version-for-extension-development/)
+- [ ] [Getting started with web-ext](https://extensionworkshop.com/documentation/develop/getting-started-with-web-ext/)
+- [ ] [web-ext command reference](https://extensionworkshop.com/documentation/develop/web-ext-command-reference/)
+- [ ] [Web-ext Webpack plug-in](https://github.com/hiikezoe/web-ext-webpack-plugin/blob/master/README.md)
+- [ ] [Browser API Polyfill](https://github.com/mozilla/webextension-polyfill)
+- [ ] [Extensions and the Add-on ID](https://extensionworkshop.com/documentation/develop/extensions-and-the-add-on-id/)
+
+### User Experience
+
+- [ ] [Build a secure extension](https://extensionworkshop.com/documentation/develop/build-a-secure-extension/)
+- [ ] [Request the right permissions](https://extensionworkshop.com/documentation/develop/request-the-right-permissions/)
+- [ ] [Best practices for collecting user data consents](https://extensionworkshop.com/documentation/develop/best-practices-for-collecting-user-data-consents/)
+- [ ] [Build an accessible extension](https://extensionworkshop.com/documentation/develop/build-an-accessible-extension/)
+- [ ] [Onboard, upboard, offboard users](https://extensionworkshop.com/documentation/develop/onboard-upboard-offboard-users/)
+- [ ] [User experience best practices](https://extensionworkshop.com/documentation/develop/user-experience-best-practices/)
+
+### Mobile
+
+- [ ] [Differences between desktop and Android extensions](https://extensionworkshop.com/documentation/develop/differences-between-desktop-and-android-extensions/)
+- [ ] [User experience guidelines for mobile extensions](https://extensionworkshop.com/documentation/develop/user-experience-guidelines-for-mobile-extensions/)
+- [ ] [Developing extensions for Firefox for Android](https://extensionworkshop.com/documentation/develop/developing-extensions-for-firefox-for-android/)
+- [ ] [Developing extensions for Firefox for Android (Fennec)](https://extensionworkshop.com/documentation/develop/developing-extensions-for-firefox-for-android-fennec/)
+- [ ] [GeckoView Extensions (Android Library)](https://github.com/mozilla/geckoview)
+
+### Port Your Extension
+
+- [ ] [Extension compatibility test](https://www.extensiontest.com/)
+- [ ] [Porting a Google Chrome Extension](https://extensionworkshop.com/documentation/develop/porting-a-google-chrome-extension/)
+- [ ] [Porting a legacy Firefox extension](https://extensionworkshop.com/documentation/develop/porting-a-legacy-firefox-extension/)
+- [ ] [Comparison with the Add-on SDK](https://extensionworkshop.com/documentation/develop/comparison-with-the-add-on-sdk/)
+- [ ] [Comparison with XUL/XPCOM extensions](https://extensionworkshop.com/documentation/develop/comparison-with-xul-xpcom-extensions/)
+
+### Debug and Test
+
+- [ ] [Debugging](https://extensionworkshop.com/documentation/develop/debugging/)
+- [ ] [Temporary Installation in Firefox](https://extensionworkshop.com/documentation/develop/temporary-installation-in-firefox/)
+- [ ] [Testing persistent and restart features](https://extensionworkshop.com/documentation/develop/testing-persistent-and-restart-features/)
+- [ ] [Test permission requests](https://extensionworkshop.com/documentation/develop/test-permission-requests/)
+
+
+## Publish
+
+- [ ] [Publish Overview](https://extensionworkshop.com/documentation/publish/)
+
+### Policies
+
+- [ ] [Add-on Policies](https://extensionworkshop.com/documentation/publish/add-on-policies/)
+- [ ] [Firefox Add-on Distribution Agreement](https://extensionworkshop.com/documentation/publish/firefox-add-on-distribution-agreement/)
+- [ ] [Add-ons Blocking Process](https://extensionworkshop.com/documentation/publish/add-ons-blocking-process/)
+- [ ] [Third Party Library Usage](https://extensionworkshop.com/documentation/publish/third-party-library-usage/)
+- [ ] [What does review rejection mean to users?](https://extensionworkshop.com/documentation/publish/what-does-review-rejection-mean-to-users/)
+
+### Sign
+
+- [ ] [Signing and distribution overview](https://extensionworkshop.com/documentation/publish/signing-and-distribution-overview/)
+- [ ] [Package your extension](https://extensionworkshop.com/documentation/publish/package-your-extension/)
+
+### Distribute
+
+- [ ] [Distribute pre-release versions](https://extensionworkshop.com/documentation/publish/distribute-pre-release-versions/)
+- [ ] [Submitting an add-on](https://extensionworkshop.com/documentation/publish/submitting-an-add-on/)
+- [ ] [Source code submission](https://extensionworkshop.com/documentation/publish/source-code-submission/)
+- [ ] [Add-on ownership](https://extensionworkshop.com/documentation/publish/add-on-ownership/)
+- [ ] [Developer accounts](https://extensionworkshop.com/documentation/publish/developer-accounts/)
+- [ ] [Self-distribution](https://extensionworkshop.com/documentation/publish/self-distribution/)
+- [ ] [Sideloading](https://extensionworkshop.com/documentation/publish/distribute-sideloading/)
+- [ ] [For desktop apps](https://extensionworkshop.com/documentation/publish/distribute-for-desktop-apps/)
+
+### Promote
+
+- [ ] [Create an appealing listing](https://extensionworkshop.com/documentation/develop/create-an-appealing-listing/)
+- [ ] [What's great content and design?](https://www.youtube.com/watch?v=a0_OsLGI0k4)
+- [ ] [Promoting your extension](https://extensionworkshop.com/documentation/publish/promoting-your-extension/)
+- [ ] [Make money from browser extensions](https://extensionworkshop.com/documentation/publish/make-money-from-browser-extensions/)
+- [ ] [Recommended extensions](https://extensionworkshop.com/documentation/publish/recommended-extensions/)
+
+
+## Manage
+
+- [ ] [Manage Overview](https://extensionworkshop.com/documentation/manage/)
+
+### Resources
+
+- [ ] [Updating your extension](https://extensionworkshop.com/documentation/manage/updating-your-extension/)
+- [ ] [Best practices for updating your extension](https://extensionworkshop.com/documentation/manage/best-practices-for-updating/)
+- [ ] [Monitoring extension usage statistics](https://extensionworkshop.com/documentation/manage/monitoring-extension-usage-statistics/)
+- [ ] [Resources for publishers](https://extensionworkshop.com/documentation/manage/resources-for-publishers/)
+- [ ] [Retiring your extension](https://extensionworkshop.com/documentation/manage/retiring-your-extension/)
+
+
+## Enterprise
+
+- [ ] [Enterprise Overview](https://extensionworkshop.com/documentation/enterprise/)
+
+### Enterprise Support
+
+- [ ] [Manage add-ons for Firefox for Enterprise](https://support.mozilla.org/products/firefox-enterprise/policies-customization-enterprise/manage-add-ons-enterprise)
+- [ ] [Install system add-ons for Firefox for Enterprise](https://support.mozilla.org/kb/install-system-add-ons-firefox-enterprise)
+
+### Enterprise Resources
+
+- [ ] [Adding policy support to your extension](https://extensionworkshop.com/documentation/enterprise/adding-policy-support-to-your-extension/)
+- [ ] [Enterprise policies that impact extensions](https://extensionworkshop.com/documentation/enterprise/enterprise-policies-that-impact-extensions/)
+- [ ] [Enterprise distribution](https://extensionworkshop.com/documentation/enterprise/enterprise-distribution/)
+
+## Themes
+
+- [ ] [Themes Overview](https://extensionworkshop.com/documentation/themes/)
+
+### Creating Themes
+
+- [ ] [Using the AMO theme generator](https://extensionworkshop.com/documentation/themes/using-the-amo-theme-generator/)
+- [ ] [Static themes](https://extensionworkshop.com/documentation/themes/static-themes/)
+- [ ] [Dynamic themes](https://extensionworkshop.com/documentation/themes/dynamic-themes/)
+- [ ] [Cross-browser compatibility](https://extensionworkshop.com/documentation/themes/cross-browser-compatibility/)
