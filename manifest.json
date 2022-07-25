@@ -4,15 +4,25 @@
     "version": "0.0.0",
 
     "description": "Adds a red border to all webpages matching mozilla.org.",
+    "homepage_url": "https://github.com/marinm/cabinet",
 
     "icons": {
         "48": "icons/48.png"
     },
 
-    "content_scripts": [
-        {
-            "matches": ["*://*.mozilla.org/*"],
-            "js": ["cabinet.js"]
-        }
+    "permissions": [
+        "activeTab"
+    ],
+
+    "browser_action": {
+        "default_icon": "icons/paw-32.png",
+        "default_title": "cabinet",
+        "default_popup": "popup/choose_beast.html"
+    },
+
+    "web_accessible_resources": [
+        "beasts/frog.jpg",
+        "beasts/turtle.jpg",
+        "beasts/snake.jpg"
     ]
-} 
+}
