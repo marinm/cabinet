@@ -4,8 +4,8 @@
 
 ## Getting Started
 
-- [ ] [What are extensions?](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/What_are_WebExtensions)
-- [ ] [Your first extension](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Your_first_WebExtension)
+- [x] [What are extensions?](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/What_are_WebExtensions)
+- [x] [Your first extension](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Your_first_WebExtension)
 - [ ] [Your second extension](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Your_second_WebExtension)
 - [ ] [Anatomy of an extension](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Anatomy_of_a_WebExtension)
 - [ ] [Example extensions](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Examples)
@@ -300,3 +300,10 @@
 - [ ] [Static themes](https://extensionworkshop.com/documentation/themes/static-themes/)
 - [ ] [Dynamic themes](https://extensionworkshop.com/documentation/themes/dynamic-themes/)
 - [ ] [Cross-browser compatibility](https://extensionworkshop.com/documentation/themes/cross-browser-compatibility/)
+
+---
+
+## Forums
+
+- [Add-ons Discourse](https://discourse.mozilla.org/c/add-ons)
+- [Add-ons room on Matrix](https://chat.mozilla.org/#/room/#addons:mozilla.org)
