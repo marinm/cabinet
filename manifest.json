@@ -3,26 +3,26 @@
     "name": "cabinet",
     "version": "0.0.0",
 
-    "description": "Adds a red border to all webpages matching mozilla.org.",
+    "description": "Yet another bookmarks manager",
     "homepage_url": "https://github.com/marinm/cabinet",
+
+    "permissions": [
+        "tabs"
+    ],
 
     "icons": {
         "48": "icons/48.png"
     },
 
-    "permissions": [
-        "activeTab"
-    ],
-
     "browser_action": {
-        "default_icon": "icons/paw-32.png",
-        "default_title": "cabinet",
-        "default_popup": "popup/choose_beast.html"
+        "default_icon": {
+            "48": "icons/48.png"
+        },
+        "default_title": "cabinet"
     },
 
-    "web_accessible_resources": [
-        "beasts/frog.jpg",
-        "beasts/turtle.jpg",
-        "beasts/snake.jpg"
-    ]
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    }
 }
