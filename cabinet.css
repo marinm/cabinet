@@ -8,13 +8,16 @@
 body {
     font-family: 'Verdana', sans-serif;
     background-color: #ffffff;
+    margin: 2em 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #container {
-    max-width: 70ch;
-    margin: 30px auto;
+    display: block;
+    margin: 2ch auto;
     overflow: auto;
-    min-height: 300px;
     border: 0px solid steelblue;
     padding: 0;
     border-radius: 5px;
@@ -23,6 +26,7 @@ body {
 
 #links-list {
     line-height: 1.5em;
+    display: block;
 }
 
 .sortable-placeholder {
@@ -52,20 +56,26 @@ body {
 }
 
 .link-container {
+    min-width: 40ch;
+    max-width: 80ch;
+    height: 1.8em;
     display: flex;
-    font-family: Arial;
-    justify-content: space-between;
-    padding: 0.2em 0.2em 0.2em 0.2em;
+    flex-direction: row;
+    align-items: center;
+    font-family: Verdana;
     background-color: #ffffff;
     border-bottom: 1px solid #e9e9e9;
+    box-sizing: border-box;
+    padding: 0.15ex 0;
+    font-size: 1em;
+}
+
+.link-container:first-child {
+    border-top: 1px solid #e9e9e9;
 }
 
 .link-container:hover {
-    background-color: none;
-}
-
-.link-title-and-domain {
-    flex: 1;
+    background-color: #f5f5f5;
 }
 
 .icon-delete {
@@ -84,22 +94,38 @@ body {
 }
 
 a.link, a.link:visited {
+    text-align: left;
     font-size: 1em;
     color: blue;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 a.link:hover {
-    background-color: beige;
+    text-decoration: underline;
 }
 
 a.marked, a.marked:visited {
     font-weight: bold;
 }
 
+.date-added {
+    text-align: left;
+    color: #ddd;
+    padding-right: 2ch;
+}
+
+.link-title {
+    flex-grow: 1;
+    text-align: left;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
 .hostname {
     display: inline-block;
-    min-width: 25ch;
     font-size: 1em;
     color: #000;
+    text-align: right;
+    flex-shrink: 0;
+    padding-left: 2ch;
 }
